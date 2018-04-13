@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shuifeng/react-native-sf-locations.git"
+    "url": "https://github.com/DLSoftFun/react-native-sf-locations.git"
   },
   "keywords": [
     "location",
@@ -19,7 +19,7 @@
   "author": "suifeng586",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shuifeng/react-native-sf-locations/issues"
+    "url": "https://github.com/DLSoftFun/react-native-sf-locations/issues"
   },
-  "homepage": "https://github.com/shuifeng/react-native-sf-locations#readme"
+  "homepage": "https://github.com/DLSoftFun/react-native-sf-locations#readme"
 }
