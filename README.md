@@ -1,9 +1,9 @@
-# react-native-sf-locations
+# react-native-sf-location-v
 
 # 定位与选择位置视图
 
 # 安装
-> npm i react-native-sf-locations  
+> npm i react-native-sf-location-v  
 
 > npm install ele-react-native-location --save  
 
@@ -54,16 +54,19 @@
 <service android:name="com.amap.api.location.APSService" ></service>
 
 ```
-* ios 
-link后 将amap 2个framework拽入target
+* ios   
+
+link后 将amap 2个framework拽入target 
+infoplist开启定位服务  
+持续后台定位请将 backgroud modes开启
 
 ```
 import EleRNLocation from 'ele-react-native-location';
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-
-  [AMapServices sharedServices].apiKey = @"请填写您的key";
+  //key 绑定 bundleid 要不获取不到地理位置
+  [AMapServices sharedServices].apiKey = @"请填写您的key";
     ...
 }
 ```
